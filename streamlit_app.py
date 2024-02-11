@@ -2,10 +2,11 @@ import streamlit as st
 
 st.title('🎈 Banky McBankFace')
 
-st.write('Hello world!')
-
 # User input
 user_input = st.text_input("Type your message here...", key="user_input")
+
+if "messages" not in st.session_state:
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome! How can I assist you today?"}]
 
 # Button to send message
 if st.button('Send'):
@@ -17,3 +18,4 @@ if st.button('Send'):
         # Clear input box (This part is handled automatically in Streamlit)
     else:
         st.error("Please enter a message.")
+
