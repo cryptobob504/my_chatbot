@@ -151,10 +151,11 @@ def account_balance_inquiry(acct_type):
     if(login_state):
         if(acct_type == "Checking"):
                 return checking_data[checking_data["Account Number"] == logged_in_acct]['Balance'].iloc[0]
-        else if(acct_type == "Savings"):
+        else: 
+            if(acct_type == "Savings"):
                 return savings_data[savings_data["Account Number"] == logged_in_acct]['Balance'].iloc[0]
-    else:
-         return "Account Type Not Found"
+            else:
+                return "Account Type Not Found"
     else: return "Not Logged In"
     
 
