@@ -5,7 +5,7 @@ st.title('🎈 Banky McBankFace')
 st.write('Hello world!')
 
 # User input
-user_input = st.text_input("Type your message here...", key="user_input")
+#user_input = st.text_input("Type your message here...", key="user_input")
 
 # Button to send message
 #if st.button('Send'):
