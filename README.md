@@ -1,9 +1,9 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Banky McBankFace 
 ```
 ⬆️ (Replace above with your app's name)
 ```
 
-Description of the app ...
+A chatbot designed to be an exercise in what not to say as a customer service agent in banking.
 
 ## Demo App
 
