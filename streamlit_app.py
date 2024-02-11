@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('🎈 Banky McBankFace')
 
 st.write('Hello world!')
