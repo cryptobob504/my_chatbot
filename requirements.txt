@@ -3,4 +3,4 @@ hugchat==0.0.8
 openai
 numpy
 pandas
-scipy.spatial
+scipy
