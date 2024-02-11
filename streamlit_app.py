@@ -8,7 +8,7 @@ from hugchat import hugchat
 
 st.title('🎈 Banky McBankFace')
 
-st.set_page_config(page_title="Banky McBankFace")
+#st.set_page_config(page_title="Banky McBankFace")
 
 #Initialize Facebook Bart Zero Shot Classification Model
 openai.api_key = st.secrets['OPENAI_API_KEY'] #'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' #Replace with your OpenAI key
